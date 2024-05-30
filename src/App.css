@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+}
+
+.container #appName{
+  font-family: 'Calligraffitti', cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #3772ff;
+  text-align: center;
+  margin-top: 16%;
+  font-size: 50px;
+}
+
+.container #appDesc{
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 180px 0;
+  text-align: center;
+  line-height: 28px;
+}
