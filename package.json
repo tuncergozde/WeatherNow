@@ -47,7 +47,6 @@
     "identity-obj-proxy": "^3.0.0",
     "jest-css-modules-transform": "^4.4.2"
   },
-  
   "jest": {
     "transform": {
       "^.+\\.(js|jsx)$": "babel-jest",
