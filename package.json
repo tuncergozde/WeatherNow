@@ -39,6 +39,22 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^13.11.0"
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "cypress": "^13.11.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-css-modules-transform": "^4.4.2"
+  },
+  
+  "jest": {
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest",
+      "^.+\\.css$": "jest-css-modules-transform"
+    },
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
   }
 }
